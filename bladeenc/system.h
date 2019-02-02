@@ -74,7 +74,7 @@
 #		define		SYSTEM		WIN32_INTEL		
 #	endif
 
-#	ifdef  __BEOS__
+#	if defined __BEOS__ || defined __HAIKU__
 #		define		SYSTEM		BEOS
 #	endif
 
